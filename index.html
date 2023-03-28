@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>icecream</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header container__header">
+      <div class="">
+        <nav class="nav">
+          <a class="logo" href="./header.html">
+            <img src="./image/header/header_logo.jpg" alt="header_logo" />
+          </a>
+          <button
+            class="menu__toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="20"
+              height="14"
+              viewBox="0 0 20 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 1H20" stroke="#D41443" />
+              <path d="M0 7H20" stroke="#D41443" />
+              <path d="M0 13H20" stroke="#D41443" />
+            </svg>
+          </button>
+          <div class="nav__distribution">
+            <ul class="nav__distribution--hide">
+              <li class="nav__menu">
+                <a class="nav__link--style" href="./index.html">Home</a>
+              </li>
+              <li class="nav__menu">
+                <a class="nav__link--style" href="#">About us</a>
+              </li>
+              <li class="nav__menu">
+                <a class="nav__link--style" href="#">How it&apos;s made?</a>
+              </li>
+              <li class="nav__menu">
+                <a class="nav__link--style" href="#">Our products</a>
+              </li>
+              <li class="nav__menu">
+                <a class="nav__link--style" href="#">Contacts</a>
+              </li>
+            </ul>
+            <button class="nav__button" type="button">Buy now &gt;</button>
+          </div>
+        </nav>
+        <div class="header__title">
+          <div class="header_title--sub">
+          <p>ICE CREAM</br>MADE WITH</p>
+          <h2>PASSION</h2>
+          </div>
+          <div class="header__number">
+            <p>16</p>
+            <p class="header__number--text">cafes</p>
+            <p>23</p>
+            <p class="header__number--text">food trucks</p>
+          </div>
+        </div>
+        <div class="header__buttons">
+            <button class="header__buttons--style">Products</button>
+            <button class="header__buttons--style">How it&apos;s made?</button>
+        </div>
+        <div class="header__text">
+            <p>Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit,</br> sed do eiusmod tempor</br> incididunt ut labore et</p>
+            <input class="header__button--arrow" type="image" src="./image/products/right-arrow.jpg" height="18" width="18"/>
+        </div>
+        <div class="menu__container js-menu-container" id="mobile-menu">
+          <button class="menu__toggle js-close-menu">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M1.25925 1L14.7407 15" stroke="white" />
+              <path d="M1 14.7407L15 1.25924" stroke="white" />
+            </svg>
+          </button>
+          <div class="mobile-menu">
+            <button class="nav__button" type="button">Buy now &gt;</button>
+            <ul>
+              <li class="nav__menu">
+                <a class="nav__link--style" href="./index.html">Home</a>
+              </li>
+              <li class="nav__menu">
+                <a class="nav__link--style" href="#">About us</a>
+              </li>
+              <li class="nav__menu">
+                <a class="nav__link--style" href="#">How it&apos;s made?</a>
+              </li>
+              <li class="nav__menu">
+                <a class="nav__link--style" href="#">Our products</a>
+              </li>
+              <li class="nav__menu">
+                <a class="nav__link--style" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+    <section class="container__products">  
+  <div class="titles">
+      <p class="slogan"> 100% Natural</p> 
+        <h2 class="products__title">PRODUCTS</h2> 
+      </div>
+    <div class="product-card-collection">        
+      <div class="product-card"> 
+        <img class="product-card-image" src="./image/products/icecream.jpg" alt="Strawberry ice cream cone">       
+        <h3 class="card-title">ICE CREAM</h3>
+        <svg class="icon icon-products" width="370" height="6"> <use href="./image/products/icons.svg#icon-threedots"></use></svg></br>
+        <p class="product-card-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+             sed do eiusmod tempor incididunt ut labore et</p>
+        <input class="button-arrow" type="image" src="./image/products/right-arrow.jpg" height="40" width="40"/>
+        </div>    
+    <div class="product-card"> 
+      <img class="product-card-image" src="./image/products/icecoffee.jpg" alt="Ice coffee glass with straw">        
+        <h3 class="card-title">ICE COFFEE</h3>
+        <svg class="icon icon-products" width="370" height="6"> <use href="./image/products/icons.svg#icon-threedots"></use></svg></br>
+        <p class="product-card-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et</p>
+            <input class="button-arrow" type="image" src="./image/products/right-arrow.jpg" height="40" width="40"/>
+    </div>    
+    <div class="product-card"> 
+      <img class="product-card-image" src="./image/products/milkshake.jpg" alt="Chocolate milkshake glass with cookies and straw">       
+        <h3 class="card-title">MILKSHAKE</h3>
+        <svg class="icon icon-products" width="370" height="6"> <use href="./image/products/icons.svg#icon-threedots"></use></svg></br>
+        <p class="product-card-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           sed do eiusmod tempor incididunt ut labore et</p>
+           <input class="button-arrow" type="image" src="./image/products/right-arrow.jpg" height="40" width="40"/>
+    </div>
+ </div>
+ </section>
+ <section class="about__container ">
+    <div class="about__section">
+      <div class="about__titles">
+        <h3 class="about__firs-text">tradition and love</h3>
+        <h1 class="about__second-text">HOW IT'S MADE ?</h1>
+      </div>
+      <div class="about__responsive about__image-resposive">
+        <div class="about__images"></div>
+        <div class="about__paragraphs ">
+          <p class="about__paragraph-first">
+            Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas
+            eros. Maecenas eleifend erat at justo fringilla.
+          </p>
+          <p class="about__paragraph-second">
+            Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet
+            placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
+            tincidunt.
+          <p class="about__paragraph-second1"> Aliquam erat volutpat. Aenean accumsan.
+          </p>
+          </p>
+
+          <div class="about__buttons">
+            <button class="about__button" type="submit">Read more ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages__container">
+    <div class="advantages__section">
+      <article class="advantages_article">
+        <p class="advantages__iconns">
+          <svg width="50" height="50">
+            <use href="./image/advantages/iconadvantages.svg#icon-frozen1"></use>
+          </svg>
+        </p>
+        <h3 class="advantages__tile advantages--title_1">721</h3>
+        <p class="advantages__descriptions advantages__descriptions--1">Aliquam ac dui vel dui vulputate consectetur.
+          Mauris massa.</h4>
+      </article>
+
+
+      <article class="advantages_article">
+        <p class="advantages__iconns">
+          <svg width="50" height="50">
+            <use href="./image/advantages/iconadvantages.svg#icon-frozen2"></use>
+          </svg>
+        </p>
+        <h3 class="advantages__tile advantages--title_2">16kg</h3>
+        <p class="advantages__descriptions advantages__descriptions--2">Aliquam ac dui vel dui vulputate consectetur.
+          Mauris massa.</p>
+      </article>
+      <article class="advantages_article">
+        <p class="advantages__iconns">
+          <svg width="44" height="50">
+            <use href="./image/advantages/iconadvantages.svg#icon-frozen3"></use>
+          </svg>
+        </p>
+        <h3 class="advantages__tile advantages--title_3">84</h3>
+        <p class="advantages__descriptions advantages__descriptions--3">Aliquam ac dui vel dui vulputate consectetur.
+          Mauris massa.</p>
+      </article>
+    </div>
+  </section> 
+ <section>
+  <div class="margin">
+    <ul class="container__gallery">
+        <li class="container__image  container__image--center">
+            <img src="./image/gallery/image1.png" class="container__picture" alt="imagen ilustrativa">
+        </li>
+        <li class="container__image container__image--c">
+            <img src="./image/gallery/image2.png" class="container__picture container__picture--bottom" alt="imagen ilustrativa">
+            <img src="./image/gallery/imagen3.png" class="container__picture" alt="imagen ilustrativa">
+        </li>
+        <li class="container__image">
+            <img src="./image/gallery/image4.png" class="container__picture container__picture--bottom container__picture--big" alt="imagen ilustrativa">
+            <img src="./image/gallery/image5.png" class="container__picture" alt="imagen ilustrativa">
+        </li>
+        <li class="container__image container__image--e">
+            <img src="./image/gallery/imagen6.png" class="container__picture container__picture--bottom" alt="imagen ilustrativa">
+            <img src="./image/gallery/image7.png" class="container__picture" alt="imagen ilustrativa">
+        </li>
+        <li class="container__image container__image--f">
+            <img src="./image/gallery/imagen8.png" class="container__picture container__picture--bottom" alt="imagen ilustrativa">
+            <img src="./image/gallery/image9.png" class="container__picture" alt="imagen ilustrativa">
+        </li>
+        <li class="container__image container__image--center">
+            <img src="./image/gallery/image10.png" class="container__picture" alt="imagen ilustrativa">
+        </li>
+    </ul>
+   </div>
+ </section>
+ <section class="container__customer">
+      <div class="customer__contain">
+        <div class="">
+          <img src="./image/customers/testimonials1.png" alt="persona1" />
+        </div>
+        <div class="flechascarrusel">
+          <div class="comilla">
+            <img src="./image/customers/mark.png" alt="comillas" />
+          </div>
+
+          <div class="texto">
+            <p>
+              <u class="underline"
+                >Nullam viverra consectetuer. Quisque cursus et, porttitor
+                risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan
+                congue. Lorem ipsum primis in nibh vel primis in nibh vel
+                risus.</u
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="fincarrusel">
+          <div class="customer__dot">
+            <img class="customer__img" src="./image/customers/custome_dot.png" alt="" />
+            <img class="customer__img" src="./image/customers/custome_dot.png" alt="" />
+            <img class="customer__img" src="./image/customers/custome_dot.png" alt="" />
+            <br />
+            <br />
+          </div>
+          <div class="name"><p1>Emily, Los Angeles</p1></div>
+        </div>
+
+        <div class="contepuntos">
+          <a href="#itemcarrusel-1"
+            ><img class="customer__img" src="./image/customers/home.png" alt=""
+          /></a>
+          <a href="#itemcarrusel-2"
+            ><img class="customer__img" src="./image/customers/customer_dot-grey.png" alt=""
+          /></a>
+          <a href="#itemcarrusel-3"
+            ><img class="customer__img" src="./image/customers/customer_dot-grey.png" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <!-- <div class="itemcarrusel" id="itemcarrusel-2">
+  <div class="tarjetacarrusel" id="tarjetacarrusel-2">
+   <img src="../Images/testimonials1 3.png" alt="persona2">
+  </div> 
+<div class="flechascarrusel">
+    <div class="flechascarrusel">
+        <div class="comilla"><img src="../Images/“.png" alt="comillas"> </div>
+        
+        <div class="texto"><br> <p> Emily Brave </br> consectetuer. Quisque </br> cursus et, porttitor risus.</br> Aliquam sem. In hendrerit </br> nulla quam nunc, </br> accumsan congue. Lorem  </br>ipsum primis in nibh vel </br> primis in nibh vel risus. </p></div>
+        risus. </p></div>
+  </div>
+</div>
+<div class="itemcarrusel" id="itemcarrusel-3">
+  <div class="tarjetacarrusel" id="tarjetacarrusel-3">
+     <img src="../Images/testimonials1 4.png" alt="persona3">
+  </div> 
+<div class="flechascarrusel">
+    <div class="flechascarrusel">
+        <div class="comilla"><img src="../Images/“.png" alt="comillas"> </div>
+        
+        <div class="texto"><br> <p> Jennifer Aniston </br> consectetuer. Quisque </br> cursus et, porttitor risus.</br> Aliquam sem. In hendrerit </br> nulla quam nunc, </br> accumsan congue. Lorem  </br>ipsum primis in nibh vel </br> primis in nibh vel risus. </p></div>
+        risus. </p></div>
+</div>
+</div>
+</div>-->
+    </section>
+ <section class="container__contact">
+      <div>
+        <ul class="contac_view">
+          <li class="contac_list">
+            <button class="contac_coffe_btn">CAFE</button>
+            <div class="contac_container_description">
+              <h1 class="contac_description_title">Chicago</h1>
+              <p class="contac_description">
+                Fusce ut velit laoreet, tempus arcu molestie vulputate
+              </p>
+            </div>
+            <div class="contac_schedule">
+              <h1 class="contac_shedule_days">Monday - Friday</h1>
+              <p class="contac_shedule_hora">06:00 AM - 10:00 PM</p>
+              <h1 class="contac_shedule_days">Saturday - Sunday</h1>
+              <p class="contac_shedule_hora">08:00 AM - 16:00 PM</p>
+            </div>
+            <div class="contact_contact">
+              <address>
+                <a class="contact_datos" href="tel:+61(0) 383 766 284"
+                  >+61(0) 383 766 284</a
+                >
+                <a class="contact_datos" href="mail:noreply@envato.com"
+                  >noreply@envato.com</a
+                >
+              </address>
+            </div>
+          </li>
+          <li class="contac_list">
+            <button class="contac_food_btn">FOOD TRUCK</button>
+            <div class="contac_container_description">
+              <h1 class="contac_description_title">Los Angeles</h1>
+              <p class="contac_description">
+                Fusce ut velit laoreet, tempus arcu molestie vulputate
+              </p>
+            </div>
+            <div class="contac_schedule">
+              <h1 class="contac_shedule_days">Monday - Friday</h1>
+              <p class="contac_shedule_hora">06:00 AM - 10:00 PM</p>
+              <h1 class="contac_shedule_days">Saturday - Sunday</h1>
+              <p class="contac_shedule_hora">08:00 AM - 16:00 PM</p>
+            </div>
+            <div class="contact_contact">
+              <address>
+                <a class="contact_datos" href="tel:+61(0) 383 766 284"
+                  >+61(0) 383 766 284</a
+                >
+                <a class="contact_datos" href="mail:noreply@envato.com"
+                  >noreply@envato.com</a
+                >
+              </address>
+            </div>
+          </li>
+          <li class="contac_list">
+            <button class="contac_coffe_btn">CAFE</button>
+            <div class="contac_container_description">
+              <h1 class="contac_description_title">New York</h1>
+              <p class="contac_description">
+                Fusce ut velit laoreet, tempus arcu molestie vulputate
+              </p>
+            </div>
+            <div class="contac_schedule">
+              <h1 class="contac_shedule_days">Monday - Friday</h1>
+              <p class="contac_shedule_hora">06:00 AM - 10:00 PM</p>
+              <h1 class="contac_shedule_days">Saturday - Sunday</h1>
+              <p class="contac_shedule_hora">08:00 AM - 16:00 PM</p>
+            </div>
+            <div class="contact_contact">
+              <address>
+                <a class="contact_datos" href="tel:+61(0) 383 766 284"
+                  >+61(0) 383 766 284</a
+                >
+                <a class="contact_datos" href="mail:noreply@envato.com"
+                  >noreply@envato.com</a
+                >
+              </address>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="contact_btn_servicio_container">
+        <button class="contact_btn_locale">Our Locations</button>
+        <button class="contact_btn_locale">Franchise</button>
+      </div>
+    </section>
+    </main>
+    <footer class="container-footer">
+      <div class="columns-footer">
+        <div class="size-orientation">
+          <div class="size-homemade">
+            <h3 class="homemade">HOMEMADE ICE CREAM</h3>
+            <h3 class="Made">MADE</h3>
+          </div>
+          <div class="with-passion-orientation">
+            <h2>WITH</h2>
+            <h2>PASSION</h2>
+          </div>
+        </div>
+        <div class="second-column">
+          <section class="social-links">
+            <div class="circular-container">
+              <svg class="icon" width="20" height="20">
+                <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
+                <use href="./image/footer/iconsfooter.svg#icon-github"></use>
+              </svg>
+            </div>
+            <div class="circular-container">
+              <svg class="icon" width="20" height="20">
+                <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
+                <use href="./image/footer/iconsfooter.svg#icon-paper-plane"></use>
+              </svg>
+            </div>
+            <div class="circular-container">
+              <svg class="icon" width="20" height="20">
+                <!-- tamaño de la ventana de visualizacion se ajusta en view box y aca se modifica el tamaño de el svg-->
+                <use href="./image/footer/iconsfooter.svg#icon-facebook22"></use>
+              </svg>
+            </div>
+          </section>
+
+          <div class="contacts">
+            <p>Feel free to contact</p>
+            <p class="number">+61(O)383 766 284</p>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="orientation">
+        <p class="registered1">© 2022 - IceCream.</p>
+        <p class="registered2">All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="index.js"></script>
+  </body>
+</html>
